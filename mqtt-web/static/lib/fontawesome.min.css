@@ -1,0 +1,33 @@
+/* FontAwesome 6.0.0 - 简化版本，仅包含项目所需图标 */
+.fa,.fab,.fad,.fal,.far,.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}
+
+.fas{font-family:"Font Awesome 6 Free";font-weight:900}
+
+/* 图标字体定义 - 使用Unicode字符替代 */
+.fa-tshirt:before{content:"👕"}
+.fa-thermometer-half:before{content:"🌡️"}
+.fa-tint:before{content:"💧"}
+.fa-sun:before{content:"☀️"}
+.fa-cogs:before{content:"⚙️"}
+.fa-arrow-right:before{content:"→"}
+.fa-arrow-left:before{content:"←"}
+.fa-wifi:before{content:"📶"}
+.fa-envelope:before{content:"✉️"}
+.fa-home:before{content:"🏠"}
+.fa-cloud:before{content:"☁️"}
+.fa-user:before{content:"👤"}
+.fa-lock:before{content:"🔒"}
+.fa-sign-in-alt:before{content:"🔑"}
+.fa-sign-out-alt:before{content:"🚪"}
+.fa-info-circle:before{content:"ℹ️"}
+.fa-exclamation-triangle:before{content:"⚠️"}
+
+/* 基本样式 */
+.fa,.fas{
+    font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    display: inline-block;
+    speak-as: none;
+}

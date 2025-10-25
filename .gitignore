@@ -1,0 +1,26 @@
+# 忽略所有文件，然后只包含指定的文件和文件夹
+*
+
+# 包含esp32/liangyijia/main文件夹
+!esp32/
+!esp32/liangyijia/
+!esp32/liangyijia/main/
+!esp32/liangyijia/main/**
+
+# 包含整个mqtt-web文件夹
+!mqtt-web/
+!mqtt-web/**
+
+# 包含stm32/liangyijia的指定文件夹和文件
+!stm32/
+!stm32/liangyijia/
+!stm32/liangyijia/BSP/
+!stm32/liangyijia/BSP/**
+!stm32/liangyijia/Core/
+!stm32/liangyijia/Core/**
+!stm32/liangyijia/*.ioc
+!stm32/liangyijia/MDK-ARM/
+!stm32/liangyijia/MDK-ARM/*.uvprojx
+
+# 包含.gitignore文件本身
+!.gitignore
